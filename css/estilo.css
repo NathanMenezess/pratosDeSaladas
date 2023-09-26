@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, 
+h2{
+    margin: 4rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+}
+
+.prato{
+    align-items: center;
+    border-bottom: solid 1px rgb(187, 185, 185);
+    display: flex;
+    padding: 2rem;
+    
+}
+
+.prato img{
+    max-height: 6rem;
+}
+
+.prato p{
+    margin-left: 2rem;
+}
+
+.Ingrediente{
+    align-items: center;
+    border-bottom: solid 1px rgb(187, 185, 185);
+    display: flex;
+    padding: 2rem;
+    
+}
+
+.Ingrediente img{
+    height: 5rem;
+}
+
+.Ingrediente p{
+    margin-left: 2rem;
+}
